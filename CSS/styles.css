@@ -1,0 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+
+#jumbotron {
+  background: #ecf1f5 url("../img/mountains-bg.png") no-repeat center / contain;
+}
+
+/*It wasn't a font, it was a font lobster ahhhhhhh*/
+.font-lobster {
+  font-family: "Lobster", cursive;
+}
