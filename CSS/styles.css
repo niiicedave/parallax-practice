@@ -1,20 +1,35 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;700&display=swap");
 
-#jumbotron {
-  background: #ecf1f5 url("../img/mountains-bg.png") no-repeat center / contain;
-}
-
-/*It wasn't a font, it was a font lobster ahhhhhhh*/
 .font-lobster {
   font-family: "Lobster", cursive;
 }
-
 .font-light {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
-
 .font-bold {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
+}
+
+#jumbotron {
+  background: #ecf1f5 url("../img/mountains-bg.png") no-repeat center / contain;
+}
+
+.parallax1 {
+  background: url("../IMG/1-Trail-buildingRidge_DxO.jpg") no-repeat center /
+    contain;
+}
+.parallax2 {
+  background: url("../IMG/2-BuckwheatRaechingforSky_DxO.jpg") no-repeat center /
+    contain;
+}
+.parallax3 {
+  background: url("../IMG/4-grassy-glen_DxO.jpg") no-repeat center / contain;
+}
+.parallax4 {
+  background: url("../IMG/5-shday-bog_DxO.jpg") no-repeat center / contain;
+}
+.parallax5 {
+  background: url("../IMG/7-splendid-oaks_DxO.jpg") no-repeat center / contain;
 }
