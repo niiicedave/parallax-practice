@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;700&display=swap");
 
 #jumbotron {
   background: #ecf1f5 url("../img/mountains-bg.png") no-repeat center / contain;
@@ -7,4 +7,14 @@
 /*It wasn't a font, it was a font lobster ahhhhhhh*/
 .font-lobster {
   font-family: "Lobster", cursive;
+}
+
+.font-light {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+.font-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
 }
