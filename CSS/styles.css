@@ -3,17 +3,13 @@
 .font-lobster {
   font-family: "Lobster", cursive;
 }
-.font-light {
+.sans-light {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
-.font-bold {
+.sans-bold {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-}
-
-#jumbotron {
-  background: #ecf1f5 url("../img/mountains-bg.png") no-repeat center / contain;
 }
 
 .parallax1 {
@@ -21,15 +17,18 @@
     contain;
 }
 .parallax2 {
-  background: url("../IMG/2-BuckwheatRaechingforSky_DxO.jpg") no-repeat center /
+  background: url("../IMG/2-BuckwheatReachingforSky_DxO.jpg") no-repeat center /
     contain;
 }
 .parallax3 {
-  background: url("../IMG/4-grassy-glen_DxO.jpg") no-repeat center / contain;
+  background: url("../IMG/3-grassy-glen_DxO.jpg") no-repeat center / contain;
 }
 .parallax4 {
-  background: url("../IMG/5-shday-bog_DxO.jpg") no-repeat center / contain;
+  background: url("../IMG/4-shday-bog_DxO.jpg") no-repeat center / contain;
 }
 .parallax5 {
-  background: url("../IMG/7-splendid-oaks_DxO.jpg") no-repeat center / contain;
+  background: url("../IMG/5-splendid-oaks_DxO.jpg") no-repeat center / contain;
+}
+.parallax6 {
+  background: url("../IMG/6-Volunteer_3k.jpg") no-repeat center / contain;
 }
