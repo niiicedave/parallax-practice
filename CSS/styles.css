@@ -2,33 +2,96 @@
 
 .font-lobster {
   font-family: "Lobster", cursive;
+  text-shadow: 0 0 1rem #000000;
 }
 .sans-light {
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
+  text-shadow: 0 0 1rem #000000;
 }
 .sans-bold {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
 }
 
-.parallax1 {
-  background: url("../IMG/1-Trail-buildingRidge_DxO.jpg") no-repeat center /
-    contain;
+.font-size-2rem {
+  font-size: 2rem;
 }
-.parallax2 {
-  background: url("../IMG/2-BuckwheatReachingforSky_DxO.jpg") no-repeat center /
-    contain;
+
+.image-1 {
+  background: url("../IMG/1-discover.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.parallax3 {
-  background: url("../IMG/3-grassy-glen_DxO.jpg") no-repeat center / contain;
+.image-2 {
+  background: url("../IMG/2-BuckwheatReachingforSky_DxO.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.parallax4 {
-  background: url("../IMG/4-shday-bog_DxO.jpg") no-repeat center / contain;
+.image-3 {
+  background: url("../IMG/3-grassy-glen_DxO.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.parallax5 {
-  background: url("../IMG/5-splendid-oaks_DxO.jpg") no-repeat center / contain;
+.image-4 {
+  background: url("../IMG/4-shday-bog_DxO.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.parallax6 {
-  background: url("../IMG/6-Volunteer_3k.jpg") no-repeat center / contain;
+.image-5 {
+  background: url("../IMG/5-splendid-oaks_DxO.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-6 {
+  background: url("../IMG/7-volunteer.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*TALLER IMAGE ROWS*/
+.tallrow {
+  height: 50rem;
+}
+
+.movedown {
+  height: 20rem;
+}
+
+/*MARGIN and PADDING FOR TEXT BOXES*/
+.textbox {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+/*TEXT OVER PHOTO BG*/
+.use-opacity {
+  opacity: 0.5;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:link,
+footer a:link,
+footer a:visited {
+  color: white;
+}
+
+.spacer {
+  height: 2rem;
 }
