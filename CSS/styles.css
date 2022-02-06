@@ -95,3 +95,13 @@ footer a:visited {
 .spacer {
   height: 2rem;
 }
+
+.carousel-button-row {
+  margin: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .tallrow {
+    height: 50rem;
+  }
+}
