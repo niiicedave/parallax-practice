@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300;700&display=swap");
+
+.font-lobster {
+  font-size: 4rem;
+  font-family: "Lobster", cursive;
+  text-shadow: 0 0 1rem #000000;
+}
+@media only screen and (max-width: 600px) {
+  .font-lobster {
+    font-size: 2rem;
+  }
+}
+
+.sans-light {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  text-shadow: 0 0 1rem #000000;
+}
+.sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+}
+
+.font-size-2rem {
+  font-size: 2rem;
+}
+
+.image-1 {
+  background: url("../IMG//1-coyote-gulch.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-2 {
+  background: url("../IMG/2-coyotecreekvalleyDSCN5004.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-3 {
+  background: url("../IMG/3-grassyhill-DSCN5098.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-4 {
+  background: url("../IMG/4-fieldofflowers-DSCN4906.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-5 {
+  background: url("../IMG/5-youthscrossingcreek-DSCN5126.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.image-6 {
+  background: url("../IMG/6-volunteer.jpg");
+  background-attachment: fixed;
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*TALLER IMAGE ROWS*/
+.tallrow {
+  height: 50rem;
+}
+@media only screen and (max-width: 600px) {
+  .tallrow {
+    height: 50rem;
+  }
+}
+
+.movedown {
+  height: 20rem;
+}
+
+/*MARGIN and PADDING FOR TEXT BOXES*/
+.textbox {
+  margin-top: 3rem;
+  padding: 2rem;
+}
+
+/*TEXT OVER PHOTO BG*/
+.use-opacity {
+  opacity: 0.5;
+}
+
+button a {
+  color: white;
+  text-decoration: none;
+}
+
+button a:link,
+footer a:link,
+footer a:visited {
+  color: white;
+}
+
+.spacer {
+  height: 2rem;
+}
+
+.carousel-button-row {
+  margin: 0;
+}
+
+footer a {
+  font-size: 1rem;
+  margin: 1rem;
+}
